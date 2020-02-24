@@ -18,10 +18,20 @@ i, em{font-weight: 40;}
 a{color: green;
 text-decoration: none;}
 
-a:hover {background-color:red;
+a:hover {background-color:orange;
 }
 
-.ee {
+.degrees {
   font-weight: 400;
-  color: orange;}
-.myname {font-size: 100pt;}
+  color: blue;}
+.myname {font-size: 100pt;
+  /*new css property */
+font-stretch: 87.5%;}
+.high {color:purple;
+background-color: yellow;}
+.miami {color: orange;
+background-color:green; }
+.ravens {
+  color: purple;
+  background-color: black;
+}
