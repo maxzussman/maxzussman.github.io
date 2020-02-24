@@ -13,7 +13,7 @@ p{font-weight:400;
 
 }
 h2{color:red;}
-i, em{font-weight: 40pt;}
+
 
 a{color: green;
 text-decoration: none;}
@@ -26,7 +26,7 @@ a:hover {background-color:orange;
   color: blue;}
 .myname {font-size: 100pt;
   /*new css property */
-font-stretch: extra-expanded;}
+font-stretch: ultra-expanded;}
 .high {color:purple;
 background-color: yellow;}
 .miami {color: orange;
