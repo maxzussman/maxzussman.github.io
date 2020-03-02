@@ -1,5 +1,5 @@
 body {
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
 }
 nav {
@@ -8,14 +8,16 @@ nav {
 
 section {
   margin-bottom: 4%;
-}
 
+}
+img {width: 100%;
+}
 /* A gallery grid */
 .grid1-container {
   display: grid;
   /* you can use the following two properties to define the height of your rows or the width of your columns. Units you can use for this are px, %, fr units, and em/rem. */
-  grid-template-columns: 150px 150px;
-  grid-template-rows: 150px 150px;
+  grid-template-columns: 600px 600px;
+
 
   /* grid-column-gap and grid-row-gap let you set the spacing between grid cells. You can set them uniformly using the grid-gap property. */
   grid-column-gap: 20px;
@@ -38,8 +40,10 @@ section {
 }
 
 .grid1-img-3 {
-  grid-column: 1/2;
-  grid-row: 2/3;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  width: 400;
+  height: 400;
 }
 
 .grid1-img-4 {
