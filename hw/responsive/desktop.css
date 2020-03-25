@@ -1,9 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 body {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+  background-color:#add8e6;
+  background-size: cover;
+  background-attachment: fixed;
 }
-nav {
+nav{
   margin-bottom: 150px;
+  text-align: center;
+
+}
+nav a {text-decoration: none;
+color: red;
+font-size: 20;
+font-family: 'Raleway', sans-serif;
+
 }
 
 section {
@@ -12,10 +25,28 @@ section {
 }
 img {width: 100%;
 }
-h1{font-size: 73px;}
-h2{font-size: 60px;}
-h3{font-size: 45px;}
-.intro_text {font-size: 25px;}
+h1{font-size: 69px;
+color: red;
+font-family: 'Raleway', sans-serif;
+}
+h2{font-size: 60px;
+color: #de1738;
+font-family: 'Raleway', sans-serif;
+}
+h3{font-size: 45px;
+color: #de1738;
+font-family: 'Raleway', sans-serif;
+}
+p{color: #de1738;
+font-size: 28px;
+font-family: 'Raleway', sans-serif;
+;
+}
+.intro_text {font-size: 25px;
+color:red;
+font-family: 'Raleway', sans-serif;
+;
+}
 /* A gallery grid */
 .grid1-container {
   display: grid;
@@ -62,7 +93,7 @@ h3{font-size: 45px;}
 .grid2-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2%;
+  grid-gap: 3%;
 }
 
 .grid2-hed {
