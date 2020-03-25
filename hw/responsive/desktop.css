@@ -11,7 +11,7 @@ nav{
   margin-bottom: 150px;
   text-align: center;
 }
-nav a {text-align: center;
+nav a, .members {text-align: center;
 text-decoration: none;
 color: red;
 font-size: 20pt;
@@ -50,23 +50,18 @@ font-family: 'Raleway', sans-serif;
 /* A gallery grid */
 .grid1-container {
   display: grid;
-  /* you can use the following two properties to define the height of your rows or the width of your columns. Units you can use for this are px, %, fr units, and em/rem. */
+
   grid-template-columns: 600px 600px;
-
-
-  /* grid-column-gap and grid-row-gap let you set the spacing between grid cells. You can set them uniformly using the grid-gap property. */
   grid-column-gap: 20px;
-  grid-row-gap: 30px;
+
 }
 
 .grid1-img-1 {
-  /* grid-column and grid-rows are ways to more succintly define the start/end points of grid cell's columns and rows */
+
   grid-column: 1/2;
-  /* grid-column-start: 1;
-  grid-column-end: 2; */
+
   grid-row: 1/2;
-  /* grid-row-start: 1;
-  grid-row-end: 2; */
+
 }
 
 .grid1-img-2 {
@@ -74,92 +69,31 @@ font-family: 'Raleway', sans-serif;
   grid-row: 1/2;
 }
 
-.grid1-img-3 {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  width: 400;
-  height: 400;
-}
-
-.grid1-img-4 {
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
 
 /* End of gallery grid code */
 
 /* Text 1 - Putting a headline and two different paragraphs in separate columns*/
 
-.grid2-container {
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3%;
+  grid-template-rows: repeat(4, 1fr);
+grid-gap:3%;
 }
 
-.grid2-hed {
+.grid-hed {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.grid2-text-1 {
+.grid-img {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.grid2-text-2 {
+.grid-text {
   grid-column: 3/4;
   grid-row: 1/2;
 }
-.grid2-text-3 {
-  grid-column: 3/4;
-  grid-row: 2/3;
-}
-.grid2-text-4 {grid-column: 3/4;
-grid-row: 3/4:}
-/* End of Text 1 */
 
-/* Text 2 - a headline and a multi-column text */
-
-.grid3-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 2%;
-}
-
-.grid3-hed {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.grid3-text {
-  grid-column: 2/4;
-  grid-row: 1/2;
-  column-count: 2;
-}
-
-/* End of Text 2 */
-
-/* Mixed: A grid using picture and text */
-
-.grid4-container {
-  display: grid;
-  grid-gap: 5%;
-}
-
-.grid4-hed {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.grid4-img {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-.grid4-text {
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-
-/* End of mixed grid */
 
 footer {
   margin-top: 120px;
