@@ -10,11 +10,11 @@ body {
 nav{
   margin-bottom: 150px;
   text-align: center;
-
 }
-nav a {text-decoration: none;
+nav a {text-align: center;
+text-decoration: none;
 color: red;
-font-size: 20;
+font-size: 20pt;
 font-family: 'Raleway', sans-serif;
 
 }
@@ -30,14 +30,14 @@ color: red;
 font-family: 'Raleway', sans-serif;
 }
 h2{font-size: 60px;
-color: #de1738;
+color: red;
 font-family: 'Raleway', sans-serif;
 }
 h3{font-size: 45px;
-color: #de1738;
+color: red;
 font-family: 'Raleway', sans-serif;
 }
-p{color: #de1738;
+p{color: red;
 font-size: 28px;
 font-family: 'Raleway', sans-serif;
 ;

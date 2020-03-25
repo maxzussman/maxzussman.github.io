@@ -1,0 +1,10 @@
+@media only screen and (max-width:767px){
+/*what goes here?*/
+body{
+  background-color: pink;
+}
+.grid1-container, .grid2-container {
+grid-template-columns: 1fr;
+grid-template-rows: repeat (4,100px);
+grid-column-gap: 0px;
+grid-row-gap:15px;}
