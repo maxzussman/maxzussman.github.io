@@ -1,6 +1,7 @@
 body {
   width: 900px;
   margin: 0 auto;
+  background-color: blue;
 }
 nav {
   margin-bottom: 150px;

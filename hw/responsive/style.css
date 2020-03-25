@@ -12,6 +12,10 @@ section {
 }
 img {width: 100%;
 }
+h1{font-size: 73px;}
+h2{font-size: 60px;}
+h3{font-size: 45px;}
+.intro_text {font-size: 25px;}
 /* A gallery grid */
 .grid1-container {
   display: grid;
@@ -58,6 +62,7 @@ img {width: 100%;
 .grid2-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2%;
 }
 
 .grid2-hed {
@@ -72,7 +77,12 @@ img {width: 100%;
   grid-column: 3/4;
   grid-row: 1/2;
 }
-
+.grid2-text-3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.grid2-text-4 {grid-column: 3/4;
+grid-row: 3/4:}
 /* End of Text 1 */
 
 /* Text 2 - a headline and a multi-column text */
@@ -122,7 +132,9 @@ img {width: 100%;
 
 footer {
   margin-top: 120px;
-  border-top: 3px solid #556b2f;
+  border-top: 3px solid;
+  border-color: green;
+
   padding-top: 10px;
   height: 150px;
 }
