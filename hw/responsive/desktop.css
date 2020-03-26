@@ -1,51 +1,56 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 body {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color:#add8e6;
+  background-image: url("back1.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 nav{
+  margin-top: 150px;
   margin-bottom: 150px;
-  text-align: center;
 }
-nav a, .members {text-align: center;
+nav a, .members {
 text-decoration: none;
-color: red;
-font-size: 20pt;
+color: #B8B8B8;
+font-size: 68pt;
 font-family: 'Raleway', sans-serif;
 
-}
-
-section {
-  margin-bottom: 4%;
 
 }
+
 img {width: 100%;
 }
-h1{font-size: 69px;
-color: red;
+h1{font-size: 80px;
+color: #A9A9A9;;
 font-family: 'Raleway', sans-serif;
 }
-h2{font-size: 60px;
-color: red;
+h2{font-size: 120px;
+color: #A9A9A9;;
 font-family: 'Raleway', sans-serif;
+
 }
-h3{font-size: 45px;
-color: red;
+h3{font-size: 100px;
+color:#A9A9A9;;
 font-family: 'Raleway', sans-serif;
+
 }
-p{color: red;
+p{color: #A9A9A9;;
 font-size: 28px;
 font-family: 'Raleway', sans-serif;
+border-top-color:#A9A9A9;;
+border-top-style: solid;
+border-bottom-color:#A9A9A9;;
+border-bottom-style: solid;
 ;
 }
-.intro_text {font-size: 25px;
-color:red;
+.intro_text {font-size: 30px;
+color:#A9A9A9;;
 font-family: 'Raleway', sans-serif;
-;
+border-top-color: #A9A9A9;;
+border-top-style: solid;
+border-bottom-color: #A9A9A9;;
+border-bottom-style: solid;
+
 }
 /* A gallery grid */
 .grid1-container {
@@ -88,10 +93,13 @@ grid-gap:3%;
 .grid-img {
   grid-column: 2/3;
   grid-row: 1/2;
+
 }
 .grid-text {
   grid-column: 3/4;
   grid-row: 1/2;
+
+
 }
 
 
