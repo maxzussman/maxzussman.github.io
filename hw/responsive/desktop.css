@@ -62,7 +62,7 @@ font-family: 'cooper-black-std', sans-serif;
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4);
+  grid-template-rows: repeat(8);
   margin-bottom: 800px;
 
 }
@@ -88,7 +88,7 @@ font-family: 'cooper-black-std', sans-serif;
 
 
 footer {
-  margin-top: 120px;
+  margin-top: 200px;
   border-top: 3px solid;
   border-color:#A9A9A9;
 
