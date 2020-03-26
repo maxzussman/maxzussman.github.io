@@ -1,89 +1,70 @@
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
-body {
+ @import url("https://use.typekit.net/ekj7sqq.css");
+ body {
   background-image: url("back1.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
+
+
+img {width: 100%;
+}
+h1{font-size: 200px;
+color: #A9A9A9;;
+font-family: 'cooper-black-std', sans-serif;
+font-style: bold;
+font-style: oblique;
+
+
+}
+.intro_text {
+  font-size: 30px;
+color:#A9A9A9;
+font-family: 'cooper-black-std', sans-serif;
+border-top-color: #A9A9A9;
+border-top-style: solid;
+border-bottom-color: #A9A9A9;
+border-bottom-style: solid;
+font-style: bold;
+font-style: oblique;
+margin-top: 300px;
+}
 nav{
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 500px;
+  margin-bottom: 500px;
 }
 nav a, .members {
 text-decoration: none;
 color: #B8B8B8;
-font-size: 68pt;
-font-family: 'Raleway', sans-serif;
+font-size: 60pt;
+font-family: 'cooper-black-std', serif;
+
+font-weight: 400;
+
+font-style: normal;
 
 
 }
-
-img {width: 100%;
-}
-h1{font-size: 80px;
+h2{font-size: 115px;
 color: #A9A9A9;;
-font-family: 'Raleway', sans-serif;
-}
-h2{font-size: 120px;
-color: #A9A9A9;;
-font-family: 'Raleway', sans-serif;
+font-family: 'cooper-black-std', sans-serif;
+font-style: bold;
+font-style: oblique;
 
-}
-h3{font-size: 100px;
-color:#A9A9A9;;
-font-family: 'Raleway', sans-serif;
 
 }
 p{color: #A9A9A9;;
 font-size: 28px;
-font-family: 'Raleway', sans-serif;
-border-top-color:#A9A9A9;;
-border-top-style: solid;
-border-bottom-color:#A9A9A9;;
-border-bottom-style: solid;
-;
-}
-.intro_text {font-size: 30px;
-color:#A9A9A9;;
-font-family: 'Raleway', sans-serif;
-border-top-color: #A9A9A9;;
-border-top-style: solid;
-border-bottom-color: #A9A9A9;;
-border-bottom-style: solid;
-
-}
-/* A gallery grid */
-.grid1-container {
-  display: grid;
-
-  grid-template-columns: 600px 600px;
-  grid-column-gap: 20px;
-
+font-family: 'cooper-black-std', sans-serif;
 }
 
-.grid1-img-1 {
-
-  grid-column: 1/2;
-
-  grid-row: 1/2;
-
-}
-
-.grid1-img-2 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
-
-/* End of gallery grid code */
-
-/* Text 1 - Putting a headline and two different paragraphs in separate columns*/
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, 1fr);
-grid-gap:3%;
+  grid-template-rows: repeat(4);
+  margin-bottom: 800px;
+
 }
 
 .grid-hed {
@@ -98,6 +79,9 @@ grid-gap:3%;
 .grid-text {
   grid-column: 3/4;
   grid-row: 1/2;
+  font-style: bold;
+  font-style: oblique;
+  margin-left: 20px;
 
 
 }
@@ -106,8 +90,6 @@ grid-gap:3%;
 footer {
   margin-top: 120px;
   border-top: 3px solid;
-  border-color: green;
+  border-color:#A9A9A9;
 
-  padding-top: 10px;
-  height: 150px;
 }
