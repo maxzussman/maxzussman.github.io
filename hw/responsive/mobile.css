@@ -1,37 +1,72 @@
 @media only screen and (max-width:767px){
-/*what goes here?*/
-body{
-  background-color: pink;
+  body {
+   background-image: url("back1.jpg");
+   background-size:contain;
+   background-attachment:fixed;
+ }
+
 }
-nav a, .members, nav {
-  text-align: left;
 }
-.grid1-container {
-  grid-template-columns: 1fr;
-  /* grid-column-gap and grid-row-gap let you set the spacing between grid cells. You can set them uniformly using the grid-gap property. */
-  grid-column-gap: 20px;
-  grid-row-gap: 30px;
+h1{font-size: 200px;
+color: #A9A9A9;;
+font-family: 'cooper-black-std', sans-serif;
+font-style: bold;
+font-style: oblique;
+
+
+}
+.intro_text {
+  font-size: 50px;
+color:#A9A9A9;
+font-family: 'cooper-black-std', sans-serif;
+border-top-color: white;
+border-top-style: none;
+border-bottom-color: white;
+border-bottom-style: none;
+font-style: bold;
+font-style: oblique;
+margin-top: 300px;
+margin-left: 0px;
+margin-right: 0px;
+}
+nav{
+  margin-top: 500px;
+  margin-bottom: 500px;
+}
+nav a, .members {
+text-decoration: none;
+color: #B8B8B8;
+font-size: 60pt;
+font-family: 'cooper-black-std', serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+h2{font-size: 115px;
+color: #A9A9A9;;
+font-family: 'cooper-black-std', sans-serif;
+font-style: bold;
+font-style: oblique;
+
+
+}
+p{color: #A9A9A9;;
+font-size: 40px;
+font-family: 'cooper-black-std', sans-serif;
 }
 
-.grid1-img-1 {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
 
-.grid1-img-2 {
-  grid-row: 2/3;
-  grid-column: 1/2;
-}
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows:auto 1fr 1fr;
-  grid-gap: 3%;
-  margin-bottom: 100px;
+grid-template-columns: 1fr;
+  margin-bottom: 500px;
 }
 
 .grid-hed {
-  grid-column: 1/2;
+
   grid-row: 1/2;
 }
 .grid-img {
@@ -41,5 +76,6 @@ nav a, .members, nav {
 .grid-text {
   grid-row: 3/4;
   grid-column: 1/2;
+  margin-left: 0px
 }
 }
