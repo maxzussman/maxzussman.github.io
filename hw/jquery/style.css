@@ -38,3 +38,9 @@ body {
   margin-bottom: 0;
   font-size: 20px;
 }
+
+footer {
+  border-top: 3px solid;
+  border-color: black;
+  margin-top: 200px;
+}
