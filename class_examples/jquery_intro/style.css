@@ -5,3 +5,9 @@
   color: #f94238;
   font-size: 120px;
 }
+
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
