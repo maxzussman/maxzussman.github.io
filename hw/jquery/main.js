@@ -70,4 +70,7 @@ $(document).ready(function() {
   $("#p7").mouseleave(function() {
     $("#p7").css("font-size", "16px");
   });
+  $("button").click(function() {
+    $("#footer").toggle();
+  })
 });
