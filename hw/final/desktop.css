@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 #title {
   text-align: center;
@@ -91,7 +91,8 @@ body {
   margin-bottom: 0;
   padding: 10px;
   border-left: .2px solid grey;
-  font-size: 17px;
+  font-size: 14px;
+  font-family: 'Noto Serif', serif;
 }
 
 .grid-score {
