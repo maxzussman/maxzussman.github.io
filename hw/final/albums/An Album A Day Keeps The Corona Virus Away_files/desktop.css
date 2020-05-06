@@ -11,17 +11,12 @@
 
 #intro-text {
   font-size: 21px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   font-family: 'Noticia Text', serif;
-}
-
-.day-description {
-  font-family: 'Noticia Text', serif;
-  font-size: 100px;
 }
 
 #day1, #day2, #day4, #day6, #day7, #day7, #day8, #day9, #day12, #day14, #day15, #day16, #day18, #day19, #day20, #day22 {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 3px;
 }
 
@@ -76,7 +71,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   border: 1px solid grey;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   background-color: white;
 }
 
