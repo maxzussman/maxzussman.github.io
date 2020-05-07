@@ -1,17 +1,22 @@
 @media only screen and (max-width:767px) {
+  @import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700;800;900&family=Noticia+Text:ital,wght@0,400;1,400;1,700&display=swap');
+
   #title {
     text-align: center;
     font-size: 40px;
     margin-bottom: 10px;
+    font-family: 'Noticia Text', serif;
   }
 
   #intro-text {
-    font-size: 13px;
-    padding: 5px;
+    font-size: 16px;
+    padding: 15px;
+    font-family: 'Noticia Text', serif;
   }
 
   #day1, #day2, #day4, #day6, #day7, #day7, #day8, #day9, #day12, #day14, #day15, #day16, #day18, #day19, #day20, #day22 {
-    font-size: 10px;
+    font-size: 13px;
+    font-family: 'Noticia Text', serif;
   }
 
   body {
@@ -19,6 +24,7 @@
     max-width: 1300px;
     margin: 0 auto;
     background-color: #F0F0F0;
+    font-family: 'Noticia Text', serif;
   }
 
   nav {
@@ -59,8 +65,9 @@
     margin-top: .001px;
     margin-bottom: 0;
     background-color: white;
-    font-size: 17px;
+    font-size: 15px;
     padding-top: 8px;
+    font-family: 'Noticia Text', serif;
   }
 
   .grid-img {
@@ -80,28 +87,32 @@
     border-bottom: 1px solid grey;
     margin: 0;
     column-fill: auto;
-    font-size: 33px;
+    font-size: 23px;
     padding-bottom: 8px;
   }
 
   .orange {
     font-size: 80px;
     color: #ff8b00;
+    font-family: 'Noticia Text', serif;
   }
 
   .green {
     font-size: 80px;
     color: #39ff14;
+    font-family: 'Noticia Text', serif;
   }
 
   .yellow {
     font-size: 80px;
     color: #FCE205;
+    font-family: 'Noticia Text', serif;
   }
 
   .red {
     font-size: 80px;
     color: red;
+    font-family: 'Noticia Text', serif;
   }
 
   footer {
