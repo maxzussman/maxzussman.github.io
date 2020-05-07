@@ -10,12 +10,12 @@
 
   #intro-text {
     font-size: 16px;
-    padding: 15px;
+    padding: 18px;
     font-family: 'Noticia Text', serif;
   }
 
   #day1, #day2, #day4, #day6, #day7, #day7, #day8, #day9, #day12, #day14, #day15, #day16, #day18, #day19, #day20, #day22 {
-    font-size: 13px;
+    font-size: 20px;
     font-family: 'Noticia Text', serif;
   }
 
