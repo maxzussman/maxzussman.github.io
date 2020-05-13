@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700;800;900&family=Noticia+Text:ital,wght@0,400;1,400;1,700&display=swap');
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-decoration: underline;
+  font-family: 'Noticia Text', serif;
+}
+
+#intro-text {
+  font-size: 21px;
+  margin-bottom: 40px;
+  font-family: 'Noticia Text', serif;
+}
+
+.day-description {
+  font-family: 'Noticia Text', serif;
+  font-size: 100px;
+}
+
+#day1, #day2, #day4, #day6, #day7, #day7, #day8, #day9, #day12, #day14, #day15, #day16, #day18, #day19, #day20, #day22 {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+body {
+  font-family: 'Noticia Text', serif;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #F0F0F0;
+}
+
+.yellow1 {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.yellow1:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+.orange1:hover {
+  color: #ff8b00;
+  text-decoration: underline;
+}
+
+.orange1 {
+  color: #ff8b00;
+  text-decoration: none;
+}
+
+.green1 {
+  color: #5ce600;
+  text-decoration: none;
+}
+
+.green1:hover {
+  color: #5ce600;
+  text-decoration: underline;
+}
+
+.red1 {
+  color: #e71837;
+  text-decoration: none;
+}
+
+.red1:hover {
+  color: #e71837;
+  text-decoration: underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 1px solid grey;
+  margin-bottom: 60px;
+  background-color: white;
+}
+
+.grid-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  max-width: 100%;
+  max-height: 100%;
+  border-left: .2px solid grey;
+}
+
+.grid-text {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: .001px;
+  margin-bottom: 0;
+  padding: 10px;
+  border-left: .2px solid grey;
+  font-size: 14px;
+  font-family: 'Noticia Text', serif;
+}
+
+.grid-score {
+  grid-column: 3/4;
+  margin-right: 5px;
+  grid-row: 1/2;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  border-left: .2px solid grey;
+  column-fill: auto;
+  font-size: 30px;
+}
+
+.orange {
+  font-size: 80px;
+  color: #ff8b00;
+  font-family: 'Noticia Text', serif;
+}
+
+.green {
+  font-size: 80px;
+  color: #5ce600;
+  font-family: 'Noticia Text', serif;
+}
+
+.yellow {
+  font-size: 80px;
+  color: #ffd700;
+  font-family: 'Noticia Text', serif;
+}
+
+.red {
+  font-size: 80px;
+  color: #e71837;
+  font-family: 'Noticia Text', serif;
+}
+
+#cope {
+  font-size: 25px;
+  font-family: 'Noticia Text', serif;
+}
+
+footer {
+  border-top: 3px solid;
+  border-color: black;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+#footer {
+  display: none;
+}
