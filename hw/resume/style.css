@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,700&display=swap");
+
+body {font-family: 'Roboto Slab', serif;
+line-height: 1.65;
+font-size: 21px;
+}
+h1 {
+  text-align: center;
+  font-size: 40pt;
+  font-style: italic;
+}
+p{font-weight:400;
+
+}
+h2{color:red;}
+
+
+a{color: green;
+text-decoration: none;}
+
+a:hover {background-color:orange;
+}
+
+.degrees {
+  font-weight: 400;
+  color: blue;}
+.myname {font-size: 100pt;
+  /*new css property */
+font-stretch: ultra-expanded;}
+.high {color:purple;
+background-color: yellow;}
+.miami {color: orange;
+background-color:green; }
+.ravens {
+  color: purple;
+  background-color: black;
+}

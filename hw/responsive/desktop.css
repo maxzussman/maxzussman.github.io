@@ -1,0 +1,112 @@
+@import url("https://use.typekit.net/ekj7sqq.css");
+
+body {
+  background-image: url("back1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 200px;
+  color: #A9A9A9;
+  ;
+  font-family: 'cooper-black-std', sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  margin: 0;
+  margin-bottom: 200px;
+}
+
+.intro_text {
+  font-size: 30px;
+  color: #A9A9A9;
+  font-family: 'cooper-black-std', sans-serif;
+  border-top-color: #A9A9A9;
+  border-top-style: solid;
+  border-bottom-color: #A9A9A9;
+  border-bottom-style: solid;
+  font-weight: bold;
+  font-style: oblique;
+  margin-top: 300px;
+  background-color: white
+}
+
+nav {
+  margin-top: 500px;
+  margin-bottom: 500px;
+}
+
+.aa {
+  text-decoration: none;
+  color: #B8B8B8;
+  font-size: 80pt;
+  font-family: 'cooper-black-std', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav a, .members {
+  text-decoration: none;
+  color: #B8B8B8;
+  font-size: 60pt;
+  font-family: 'cooper-black-std', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav a:hover {
+  color: #27fa00;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 115px;
+  color: #A9A9A9;
+  ;
+  font-family: 'cooper-black-std', sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  margin: -3px
+}
+
+p {
+  color: #A9A9A9;
+  font-size: 28px;
+  font-family: 'cooper-black-std', sans-serif;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  margin-bottom: 800px;
+  column-gap: 20px
+}
+
+.grid-hed {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grid-img {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.grid-text {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+footer {
+  margin-top: 200px;
+  border-top: 3px solid;
+  border-color: #A9A9A9;
+}
