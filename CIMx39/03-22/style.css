@@ -1,0 +1,9 @@
+body {
+  max-width: 900px;
+}
+
+.readMore {
+  display: inline-block;
+  color: red;
+  font-size: 30px;
+}
