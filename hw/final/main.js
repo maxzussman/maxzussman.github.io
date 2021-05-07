@@ -1,4 +1,4 @@
-const texts = ['the Corona Virus Away', 'the Jams Flowing', 'Your Mind at Ease', 'that Funky Soul'];
+const texts = ['the Corona Virus Away', 'the Jams Flowing', 'Your Mind at Ease', 'that Funky Soul', 'Good Vibes'];
 let count = 0;
 let index = 0;
 let currentText = '';
