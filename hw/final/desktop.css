@@ -2,7 +2,7 @@
 
 #title {
   text-align: center;
-  font-size: 40px;
+  font-size: 400px;
   margin-bottom: 5px;
   margin-top: 15px;
   text-decoration: underline;
@@ -20,7 +20,29 @@
   font-size: 100px;
 }
 
-#day1, #day2, #day4, #day6, #day7, #day7, #day8, #day9, #day12, #day14, #day15, #day16, #day18, #day19, #day20, #day22, #day24, #day25, #day28, #day30, #day34, #day37, #day40 {
+#day1,
+#day2,
+#day4,
+#day6,
+#day7,
+#day7,
+#day8,
+#day9,
+#day12,
+#day14,
+#day15,
+#day16,
+#day18,
+#day19,
+#day20,
+#day22,
+#day24,
+#day25,
+#day28,
+#day30,
+#day34,
+#day37,
+#day40 {
   font-size: 20px;
   margin-bottom: 3px;
 }
@@ -29,7 +51,7 @@ body {
   font-family: 'Noticia Text', serif;
   max-width: 1300px;
   margin: 0 auto;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .yellow1 {
@@ -85,16 +107,16 @@ body {
   grid-row: 1/2;
   max-width: 100%;
   max-height: 100%;
-  border-left: .2px solid grey;
+  border-left: 0.2px solid grey;
 }
 
 .grid-text {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: .001px;
+  margin-top: 0.001px;
   margin-bottom: 0;
   padding: 10px;
-  border-left: .2px solid grey;
+  border-left: 0.2px solid grey;
   font-size: 14px;
   font-family: 'Noticia Text', serif;
 }
@@ -106,7 +128,7 @@ body {
   text-align: center;
   padding: 5px;
   margin: 0;
-  border-left: .2px solid grey;
+  border-left: 0.2px solid grey;
   column-fill: auto;
   font-size: 30px;
 }
