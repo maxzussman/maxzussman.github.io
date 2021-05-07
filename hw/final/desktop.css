@@ -1,12 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700;800;900&family=Noticia+Text:ital,wght@0,400;1,400;1,700&display=swap');
 
-#title {
+.intro {
+  display: flex;
   text-align: center;
-  font-size: 400px;
+  font-size: 20px;
   margin-bottom: 5px;
   margin-top: 15px;
   text-decoration: underline;
   font-family: 'Noticia Text', serif;
+}
+
+.typing {
+  position: relative;
+  margin-left: 8px;
+}
+
+.typing::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 90%;
+  border-right: 2px solid black;
+  animation: blink 0.8s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #intro-text {
