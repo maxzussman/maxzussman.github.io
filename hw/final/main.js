@@ -16,5 +16,5 @@ let letter = '';
     count++;
     index = 0;
   }
-  setTimeout(type, 250);
+  setTimeout(type, 175);
 })();
